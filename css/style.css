@@ -1,0 +1,564 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+
+/*debut couleur utilisé*/
+
+#html-color{
+    color: #ff4500;
+}
+#css-color{
+    color: #089cff;
+}
+#js-color{
+    color: #ffd207;
+}
+#php-color{
+    color: #c57ac5;
+}
+#python-color1{
+    color: #0880cf;
+}
+#python-color2{
+    color: #ffd207;
+}
+
+/*fin couleur utilisé*/
+
+
+
+
+/* debut css nav bar*/
+
+.header-nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color:whitesmoke;
+    opacity: .8;
+    
+}
+
+
+
+.header-nav ul {
+    list-style: none;
+    padding-left: 0;
+    width: 30%;
+    flex-wrap: wrap;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 150%;
+    color: rgb(63,142,251);
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  
+
+  
+  .header_menu {
+    display: flex;
+    margin-left: 25px;
+  }
+  
+  .header_sign {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .header_sign a {
+    padding: 10px;
+    
+
+
+  }
+  
+  #signIn {
+    color: rgb(255, 255, 255);
+    
+    background: rgb(63,142,251);
+    background: linear-gradient(90deg, rgba(63,142,251,1) 0%, rgba(70,252,192,1) 100%);
+    width: 150px;
+    border-radius: 10% / 50%;
+    text-align: center;
+    letter-spacing: .5px;
+    margin-left: 300px;
+  }
+
+  div.header-nav a:hover {
+  
+    text-decoration:none;
+    background: rgb(63,142,251);
+    background: linear-gradient(90deg, rgba(63,142,251,1) 0%, rgba(70,252,192,1) 100%);
+    opacity: .5;
+    color: white;
+    border-radius: 10% / 50%;
+    }
+
+
+    /*fin css nav bar*/
+
+
+
+
+
+
+
+
+/*debut css banniere + photo + text*/
+.header{
+
+    display: flex;
+    justify-content: space-around;
+
+    background-attachment: fixed;
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+    background: rgb(63,142,251);
+background: linear-gradient(90deg, rgba(63,142,251,1) 0%, rgba(70,252,192,1) 100%);
+    
+}
+
+.header-titre-paragraphe{
+    padding-top: 200px;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    
+
+}
+.header-titre-paragraphe h1{
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 200%;
+}
+
+
+.header-photo{
+    background-image: url("photo-enzo.jpg");
+    background-size: cover;
+    height: auto;
+    width: 500px;
+    border-radius: 1%;
+    border: double 2px #3f8efb ;
+    
+}
+
+.header-scale{
+width: 100%;
+height: 100%;
+background-color: rgba(11, 229, 236, 0.2);    
+}
+
+
+/*fin css banniere + photo + text*/
+
+
+
+
+
+
+
+
+
+/*debut titre competences*/
+
+.titre-competences{
+    text-align: center;
+    margin-top: 50px;
+    
+    
+
+}
+
+.titre-competences h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    color: #3f8efb;
+    
+
+}
+
+/* fin titre compétences*/
+
+
+/*debut hr compétences*/
+
+
+
+/*fin hr compétences*/
+
+
+
+
+
+
+
+
+
+/*debut carte compétences*/
+.body-carte{
+    width: 400px;
+    text-align: center;
+    
+
+}
+.body-carte h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(63,142,251);
+    font-size: 250%;
+
+}
+.body-carte-logo{
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.body-carte-logo img{
+    margin-right: 20px;
+}
+.body-carte-text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.body-carte p {
+    width: 400px;
+    
+    word-wrap: break-word;
+    text-align: justify;
+    font-weight: 600;
+    color: #727f82;
+    font-size:120%;
+
+}
+
+
+.carte{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/*fin carte compétences*/
+
+
+/*debut outils*/
+.outils h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(63,142,251);
+    font-size: 250%;
+
+}
+
+.outils-logo{
+    text-align: center;
+}
+.outils-logo img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.outils p {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-weight: 600;
+    color: #727f82;
+    font-size:120%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*fin outils*/
+
+/*debut projet css*/
+
+.projet{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.projet h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    color: #3f8efb;
+
+}
+
+
+.projet-carte{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:100px ;
+    margin-bottom: 100px;
+}
+.projet-carte h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    color: #3f8efb;
+}
+.projet-carte p{
+    width: 500px;
+    word-break: 500px;
+    text-align: justify;
+    font-weight: 600;
+    color: #727f82;
+    font-size:120%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projet-carte ul{
+    list-style: none;
+    font-size: 250%;
+    margin-left: 0;
+}
+.projet-carte a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+}
+.projet-carte p {
+    margin-left: 200px;
+}
+
+div.projet-carte a:hover {
+  
+    text-decoration:none;
+    background: rgb(63,142,251);
+    background: linear-gradient(90deg, rgba(63,142,251,1) 0%, rgba(70,252,192,1) 100%);
+    opacity: .5;
+    color: white;
+    border-radius: 10% / 50%;
+    }
+
+
+
+/*fin projet css*/
+
+
+/*debut a-propos css*/
+
+.a-propos{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.a-propos h2{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    color: #3f8efb;
+    
+
+}
+
+.a-propos-citation{
+    display: flex;
+    justify-content: space-around;
+}
+.a-propos-citation p{
+    text-align: justify;
+    font-weight: 600;
+    color: #727f82;
+    font-size:120%;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+
+#quote-gauche{
+    
+    margin-left: 150px;
+}
+#quote-droite{
+    margin-right: 150px;
+}
+
+
+.a-propos-information{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.a-propos-carte{
+    text-align: center;
+}
+
+.a-propos-carte h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    color: #3f8efb;
+    margin-bottom: 20px;
+}
+.a-propos-carte p{
+    width: 400px;
+    
+    word-wrap: break-word;
+    text-align: justify;
+    margin-top: 20px;
+
+    text-align: justify;
+    font-weight: 600;
+    color: #727f82;
+    font-size:120%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*fin a-propos css*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*debut footer css icone + logo + text contact*/
+    .footer_portfolio{
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        border-top: solid 5px #727f82;
+        
+    }
+    
+    
+    
+    .footer_portfolio h3{
+        font-size: xx-large;
+        letter-spacing: .8px;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(63,142,251);
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-weight: 600;
+        
+    
+    }
+    
+    
+    .footer_portfolio p{
+        font-size: larger;
+        font-family: 'Roboto', sans-serif;
+        color: #727f82;
+    
+    }
+    
+    #tel{
+        margin-bottom: 5px;
+    }
+    #mail{
+        margin-bottom: 5px;
+    }
+    
+    .footer_icone a{
+        margin-right: 10px;
+    
+    }
+    
+    .footer_logo{
+        font-family: 'Roboto', sans-serif ;
+        
+        margin-top: 50px;
+        color: rgb(63,142,251);
+
+    }
+    .footer_logo h2{
+        font-size: 250%;
+        font-weight: 600;
+    }
+    
+    .footer_icone img {
+        opacity: .75;
+    }
+    div.footer_icone img:hover{
+        opacity: 1;
+    
+    }
+
+    /*fin footer css icone + logo + text contact*/
+    
+    
+
+    .titre-competences h2 {
+        animation-duration: 5s;
+        animation-name: ghost;
+      }
+      
+      @keyframes ghost {
+        from {
+          opacity: 0;
+        }
+      
+        to {
+          opacity: 1;
+        }
+      }
+
+
+
+      .projet h2 {
+        animation-duration: 5s;
+        animation-name: ghost;
+      }
+      
+      @keyframes ghost {
+        from {
+          opacity: 0;
+        }
+      
+        to {
+          opacity: 1;
+        }
+      }
+
+
+
+      
+
+
+
+
+
+
